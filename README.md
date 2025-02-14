@@ -1,4 +1,4 @@
-﻿# Physx-Vehicle-Demo
+﻿# PhysX-Vehicle-Demo
 > Opengl+PhysX+GLFW+DearImGui
 
 ## Detail
