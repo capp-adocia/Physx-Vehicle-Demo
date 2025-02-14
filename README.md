@@ -1,6 +1,8 @@
 ﻿# PhysX-Vehicle-Demo
 > Opengl+PhysX+GLFW+DearImGui
 
+![图片](https://github.com/capp-adocia/Physx-Vehicle-Demo/blob/master/img.png)
+
 ## Detail
 - 使用Physx实现了车辆运动前进、后退、转弯，但存在一个未知的bug，当我按住前进键后，等待达到最大速度后，此时再任意按下其他键，速度就会突破最大值，继续增加一倍的速度，这是一个十分奇怪的bug，目前为止我仍然未能解决它。
 
