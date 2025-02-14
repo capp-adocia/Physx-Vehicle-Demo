@@ -29,7 +29,7 @@
   ```
 2. 第二步修改initGroundPlane函数中的PxShapeFlag，将第二个PxShapeFlag修改为true，表示开启物理模拟
 ```cpp
-
+shape->setFlag(PxShapeFlag::eSIMULATION_SHAPE, true);
 ```
 
 3. 第三步修改PhysXIntegration.cpp中的第64行
