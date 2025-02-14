@@ -35,7 +35,7 @@ shape->setFlag(PxShapeFlag::eSIMULATION_SHAPE, true);
 3. 第三步修改PhysXIntegration.cpp中的第64行
 ```cpp
 //const PxVehiclePhysXRigidActorShapeParams physxActorShapeParams(boxGeom, physxParams.physxActorBoxShapeLocalPose, defaultMaterial, PxShapeFlags(0), PxFilterData(), 
-		const PxVehiclePhysXRigidActorShapeParams physxActorShapeParams(boxGeom, physxParams.physxActorBoxShapeLocalPose, defaultMaterial, PxShapeFlags(PxShapeFlag::eSIMULATION_SHAPE),
+const PxVehiclePhysXRigidActorShapeParams physxActorShapeParams(boxGeom, physxParams.physxActorBoxShapeLocalPose, defaultMaterial, PxShapeFlags(PxShapeFlag::eSIMULATION_SHAPE),
 ```
 
 至此，你就会发现碰撞变得有效了。
